@@ -1,0 +1,125 @@
+:root{
+    --primary-color : #4290F5;
+    --hover-effect : #204575;
+    --secondary-color : #0E1F36;
+    --dim-primary-color : #3B81DB;
+    --dimmer-primary-color : #316AB5;
+    --white : white;
+    --black : black;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital@0;1&display=swap');
+
+#brand-tag{
+    color: var(--primary-color);
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+a{
+    text-decoration: none;
+    color: var(--black);
+    display: block;
+}
+
+body{
+    margin: 0;
+}
+
+#main-container{
+    display: flex;
+}
+
+#main-container main{
+    padding-left: 1rem;
+    flex-grow: 1;
+    flex-shrink: 0;
+    width: 74
+    vw;
+    position: absolute;
+    left: 20vw;
+}
+
+#side-bar-container {
+    width: 20vw;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-size: 1rem;
+    background-color: var(--primary-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: var(--dimmer-primary-color) 2px 5px 15px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--hover-effect);
+}
+
+#side-bar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#side-bar-logo {
+    font-size: 1.5rem;
+}
+
+.component-preview{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 0.5rem 0 0.5rem;
+    row-gap: 1rem;
+    background-color: var(--dim-primary-color);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+#site-title {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.75rem;
+    margin: 1rem;
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#side-bar-logo a:hover{
+    color: var(--white);
+}
+
+#navigation-links {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+
+.navigation-link {
+    color: white;
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0 20px 20px 0;
+}
+
+.navigation-link:hover {
+    background-color: var(--dim-primary-color);
+    color: var(--secondary-color);
+} 
+
+aside hr{
+    color: black;
+    height: 0;
+    width: 100%;
+    border-style: outset;
+}
+

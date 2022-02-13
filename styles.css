@@ -123,3 +123,6 @@ aside hr{
     border-style: outset;
 }
 
+#documentation-link{
+    border: 2px solid var(--secondary-color);
+}

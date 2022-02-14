@@ -1,0 +1,64 @@
+#success-alert h2,#danger-alert h2,#warning-alert h2,#info-alert h2{
+    margin: 0.5rem 0 0.5rem 0;
+    display: inline-block;
+}
+
+#success-alert a,#danger-alert a,#warning-alert a,#info-alert a{
+    font-size: xx-large;
+    position: relative;
+    right: 0;
+    margin-right: 0;
+    padding-right: 0;
+    display: inline-block;
+}
+#success-alert,#danger-alert,#warning-alert,#info-alert{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 12px;
+    border-radius: 0.75rem;
+    width: 50%;
+    border-bottom: 5px solid;
+    border-right: 4px solid;
+}
+
+
+#success-alert{
+    background-color: rgb(47, 255, 141);
+    border-color: rgb(28, 116, 68);
+    color: rgb(0, 117, 53);
+}
+
+#danger-alert{
+    background-color: rgb(255, 93, 93);
+    border-color: rgb(128, 34, 34);
+    color: rgb(136, 3, 3);
+}
+
+#warning-alert{
+    background-color: rgb(255, 255, 95);
+    border-color: rgb(139, 139, 1);
+    color: rgb(88, 88, 0);
+}
+
+#info-alert{
+    border-color: rgb(1, 63, 143);
+    background-color: rgb(81, 156, 255);
+    color: rgb(0, 60, 255);
+}
+
+#success-alert a:hover{
+    color: red;
+}
+
+#danger-alert a:hover{
+    color: red;
+}
+
+#warning-alert a:hover{
+    color: red;
+}
+
+#info-alert a:hover{
+    color: red;
+}

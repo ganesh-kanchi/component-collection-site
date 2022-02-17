@@ -25,11 +25,17 @@
     --alert-color: rgb(0, 60, 255);
 }
 
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital@0;1&display=swap');
 
 #brand-tag{
     color: var(--primary-color);
     font-family: 'Ubuntu Mono', monospace;
+}
+
+.component-headings{
+    color: var(--primary-color);
 }
 
 a{
@@ -395,5 +401,65 @@ iframe{
     box-shadow: 5px 5px 15px var(--black);
     margin: 1rem;
     height: 3rem;
+    border-radius: 50%;
+}
+
+.status-badge{
+    margin: 1rem;
+    background-image: url(assets/profile.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 10rem;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    color: rgba(240, 248, 255, 0);
+    position: relative;
+}
+
+.badge{
+    height: 0.75rem;
+    width: 0.75rem;
+    position: absolute;
+    bottom: 1rem;
+    right: 0.1rem;
+    border-radius: 50%;
+    border: 0.25rem solid var(--dim-primary-color);
+} 
+
+.online-badge{
+    background-color: var(--success-bg-color);
+}
+
+.idle-badge{
+    background-color: var(--warning-bg-color);
+}
+
+.dnd-badge{
+    background-color: var(--danger-border-color);
+}
+
+.icon-container{
+    position: relative;
+    margin: 1rem;
+}
+
+.icon{
+    padding: 0.5rem;
+    height: 2rem;
+}
+
+.icon-badge{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--warning-bg-color);
+    height: 1rem;
+    width: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    border: none;
     border-radius: 50%;
 }

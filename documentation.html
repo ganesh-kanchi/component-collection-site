@@ -19,7 +19,7 @@
                 <nav id="navigation-links">
                     <a href="#alert-component-heading" class="navigation-link">Alert</a>
                     <a href="#avatar-component-heading" class="navigation-link">Avatar</a>
-                    <a href="" class="navigation-link">Badge</a>
+                    <a href="#badge-component-heading" class="navigation-link">Badge</a>
                     <a href="" class="navigation-link">Button</a>
                     <a href="" class="navigation-link">Card</a>
                     <a href="" class="navigation-link">Image</a>
@@ -34,7 +34,7 @@
         <main>
             <section class="component-section">
             
-                <h1 id="alert-component-heading">Alert</h1>
+                <h1 id="alert-component-heading" class="component-headings">Alert</h1>
             
                 <h3>Alerts are used to communicate a state that affects a system, feature or page.</h3>
                 <div class="component-preview">
@@ -54,21 +54,21 @@
                         <h2>this is a info alert</h2>
                         <a href="">&times;</a>
                     </div>
-                </div><iframe
+                </div>
+                <iframe
                 src="https://carbon.now.sh/embed?bg=rgba%2849%2C106%2C181%2C1%29&t=seti&wt=none&l=htmlmixed&width=408&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=36px&ph=39px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=156%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522circular-x-large-avatar%2522%2520src%253D%2522.%252Fassets%252Fprofile.png%2522%2520%250Aalt%253D%2522circular%2520x-large%2520avatar%2522%253E%250A%253Cimg%2520class%253D%2522circular-large-avatar%2522%2520src%253D%2522.%252Fassets%252Fprofile.png%2522%2520%250Aalt%253D%2522circular%2520large%2520avatar%2522%253E%250A%253Cimg%2520class%253D%2522circular-small-avatar%2522%2520src%253D%2522.%252Fassets%252Fprofile.png%2522%2520%250Aalt%253D%2522circular%2520small%2520avatar%2522%253E%250A%253Cimg%2520class%253D%2522circular-x-small-avatar%2522%2520src%253D%2522.%252Fassets%252Fprofile.png%2522%2520%250Aalt%253D%2522circular%2520x-small%2520avatar%2522%253E"
                 style="width: 70vw; height: 45vh; border:0; transform: scale(1); overflow:hidden;"
                 sandbox="allow-scripts allow-same-origin">
               </iframe>
             </section>
 
-            <h1 id="avatar-component-heading">Avatar</h1>
-
-                <h3>The Avatar component is used to represent a user, and displays the profile picture, initials or placeholder icon. It can be used in login page, notification bar, and in various parts of the project etc</h3>
-
+            
             
             <section class="component-section">
+                <h1 id="avatar-component-heading" class="component-headings">Avatar</h1>
+            <h3>The Avatar component is used to represent a user, and displays the profile picture, initials or placeholder icon. It can be used in login page, notification bar, and in various parts of the project etc</h3>
                 
-                <h2>Circular Avatar</h2>
+                <h2 class="component-headings">Circular Avatar</h2>
                 <h3>Circular Avatars can be created using the respective avatar class inside the image tag.</h3>
 
                 <div class="component-preview avatar-component-preview">
@@ -88,7 +88,7 @@
 
             <section class="component-section">
 
-                <h2>Square Avatar</h2>
+                <h2 class="component-headings">Square Avatar</h2>
                 <h3>Square Avatars can be created using the respective avatar class inside the image tag. </h3>
                 
                 <div class="component-preview avatar-component-preview">
@@ -108,7 +108,7 @@
 
             <section class="component-section">
 
-                <h2>Avatar with placeholder icon</h2>
+                <h2 class="component-headings">Avatar with placeholder icon</h2>
                 <h3>Avatar with placeholder icon can be created using the class avatar-placeholder, inside the img tag.</h3>
 
                 <div class="component-preview avatar-component-preview">
@@ -127,7 +127,7 @@
             </section>
 
             <section class="component-section">
-                <h2>Avatar with Placelolder text</h2>
+                <h2 class="component-headings">Avatar with Placelolder text</h2>
                 <h3>Avatar with placeholder initial can be created using the respective avatar-placeholder-text class, inside the image component tag. And the class flex-container will be used to center the initial.</h3>
 
                 <div class="component-preview avatar-component-preview">
@@ -144,9 +144,68 @@
                 </iframe>
             </section>
 
+            <section class="component-section">
+                <h1 id="badge-component-heading" class="component-headings">Badge</h1>
+                <h3>Badges are used to highlight an item's status for quick recognition. It is generally used to show the count of notification or status of the user.</h3>
             
+                <h2 class="component-headings"> Status Badge</h2>
+            
+                <h3> Status badge is used to show the status of the user. It has 3 variants online-badge | dnd-badge | idle-badge</h3>
+            
+                <div class="component-preview avatar-component-preview">
+        
+                    <div class="status-badge">
+                        <span class="badge online-badge"></span>
+                    </div>
 
+                    <div class="status-badge">
+                        <span class="badge idle-badge"></span>
+                    </div>
 
+                    <div class="status-badge">
+                        <span class="badge dnd-badge"></span>
+                    </div>
+ 
+                </div>
+
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2849%2C106%2C181%2C1%29&t=seti&wt=none&l=htmlmixed&width=408&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=36px&ph=39px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=156%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522status-badge%2522%253E%250A%2509%253Cspan%2520class%253D%2522badge%2520online-badge%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522status-badge%2522%253E%250A%2509%253Cspan%2520class%253D%2522badge%2520idle-badge%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522status-badge%2522%253E%250A%2509%253Cspan%2520class%253D%2522badge%2520dnd-badge%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                style="width: 60vw; height: 35vh; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            
+            </section>
+            
+            <section class="component-section">
+
+                <h2 class="component-headings">Icon badge</h2>
+
+                <h3> Icon badge is used to show the count of the notification or add cart option. It can be created using the class badge-icons icon-badge Font size of badge text is in em. It will change as per the parent element's font-size.</h3>
+                <div class="component-preview avatar-component-preview">
+                    <div class="icon-container">
+                        <img class="icon" src="./assets/house-chimney-solid.svg" alt="">
+                        <div class="icon-badge">2</div>
+                    </div>
+                    <div class="icon-container">
+                        <img class="icon" src="./assets/cart-arrow-down-solid.svg" alt="">
+                        <div class="icon-badge">3</div>
+                    </div>
+                    <div class="icon-container">
+                        <img class="icon" src="./assets/bell-solid.svg" alt="">
+                        <div class="icon-badge">1</div>
+                    </div>
+                    <div class="icon-container">
+                        <img class="icon" src="./assets/bars-solid.svg" alt="">
+                        <div class="icon-badge">2</div>
+                    </div>
+
+                </div>
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2849%2C106%2C181%2C1%29&t=seti&wt=none&l=htmlmixed&width=408&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=36px&ph=39px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=156%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522icon-container%2522%253E%250A%2509%253Cimg%2520class%253D%2522icon%2522%2520src%253D%2522.%252Fassets%252Fhouse-chimney-solid.svg%2522%2520alt%253D%2522%2522%253E%250A%2509%253Cdiv%2520class%253D%2522icon-badge%2522%253E2%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522icon-container%2522%253E%250A%2509%253Cimg%2520class%253D%2522icon%2522%2520src%253D%2522.%252Fassets%252Fcart-arrow-down-solid.svg%2522%2520alt%253D%2522%2522%253E%250A%2509%253Cdiv%2520class%253D%2522icon-badge%2522%253E3%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522icon-container%2522%253E%250A%2509%253Cimg%2520class%253D%2522icon%2522%2520src%253D%2522.%252Fassets%252Fbell-solid.svg%2522%2520alt%253D%2522%2522%253E%250A%2509%253Cdiv%2520class%253D%2522icon-badge%2522%253E1%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522icon-container%2522%253E%250A%2509%253Cimg%2520class%253D%2522icon%2522%2520src%253D%2522.%252Fassets%252Fbars-solid.svg%2522%2520alt%253D%2522%2522%253E%250A%2509%253Cdiv%2520class%253D%2522icon-badge%2522%253E2%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="width: 60vw; height: 50vh; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </section>
 
 
         </main>

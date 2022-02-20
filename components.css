@@ -523,3 +523,19 @@
 .horizontal-card .card-description{
     margin-left: 0.5rem;
 }
+
+.image{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 10px var(--black);
+}
+
+.circle-image{
+    border-radius: 50%;
+}
+
+.responsive-image{
+    width: 100%;
+    height: auto;
+}

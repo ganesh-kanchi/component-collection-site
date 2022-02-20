@@ -674,7 +674,6 @@ iframe{
 .card-main-content{
     display: flex;
     gap: 1rem;
-    display: flex;
     flex-direction: row;
     align-content: center;
     margin: auto;

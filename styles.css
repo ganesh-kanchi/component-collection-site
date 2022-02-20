@@ -705,3 +705,28 @@ iframe{
 .horizontal-card .card-description{
     margin-left: 0.5rem;
 }
+
+.square-image{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 10px var(--black);
+}
+
+.image-components-preview{
+    position: relative;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.circle-image{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px var(--black);
+}
+
+.responsive-image{
+    width: 30vw;
+    height: auto;
+}

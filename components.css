@@ -1,3 +1,31 @@
+:root{
+    --primary-color : #4290F5;
+    --hover-effect : #204575;
+    --secondary-color : #0E1F36;
+    --dim-primary-color : #3B81DB;
+    --dimmer-primary-color : #316AB5;
+    --white : white;
+    --black : black;
+    --red : red;
+    --dark-grey : rgb(87, 87, 87);
+    --grey : rgb(108, 140, 177);
+    --success-bg-color: rgb(47, 255, 141);
+    --success-border-color: rgb(28, 116, 68);
+    --success-color: rgb(0, 117, 53);
+
+    --danger-bg-color: rgb(255, 93, 93);
+    --danger-border-color: rgb(128, 34, 34);
+    --danger-color: rgb(136, 3, 3);
+
+    --warning-bg-color: rgb(255, 255, 95);
+    --warning-border-color: rgb(139, 139, 1);
+    --warning-color: rgb(88, 88, 0);
+
+    --alert-border-color: rgb(1, 63, 143);
+    --alert-bg-color: rgb(81, 156, 255);
+    --alert-color: rgb(0, 60, 255);
+}
+
 #success-alert h2,#danger-alert h2,#warning-alert h2,#info-alert h2{
     margin: 0.5rem 0 0.5rem 0;
     display: inline-block;
@@ -268,7 +296,7 @@
     margin: 1rem;
     border-radius: 0.5rem;
     border: none;
-    color: white;
+    color: var(--white);
     background-color: var(--hover-effect);
 }
 
@@ -353,10 +381,6 @@
     background-color: var(--white);
     position: relative;
 }
-
-/* .image-container{
-    display: flex;
-} */
 
 .card-image{
     border-radius: 2% 2% 0 0;

@@ -706,10 +706,10 @@ iframe{
     margin-left: 0.5rem;
 }
 
-.square-image{
+.image{
     width: 20vw;
     height: 20vw;
-    border-radius: 1rem;
+    border-radius: 1rem;    
     box-shadow: 5px 5px 10px var(--black);
 }
 
@@ -720,10 +720,7 @@ iframe{
 }
 
 .circle-image{
-    width: 20vw;
-    height: 20vw;
     border-radius: 50%;
-    box-shadow: 5px 5px 10px var(--black);
 }
 
 .responsive-image{

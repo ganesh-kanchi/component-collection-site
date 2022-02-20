@@ -524,7 +524,7 @@
     margin-left: 0.5rem;
 }
 
-.square-image{
+.image{
     width: 20vw;
     height: 20vw;
     border-radius: 1rem;
@@ -532,13 +532,10 @@
 }
 
 .circle-image{
-    width: 20vw;
-    height: 20vw;
     border-radius: 50%;
-    box-shadow: 5px 5px 10px var(--black);
 }
 
 .responsive-image{
-    width: 30vw;
+    width: 100%;
     height: auto;
 }

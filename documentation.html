@@ -25,8 +25,8 @@
                     <a href="#image-component-heading" class="navigation-link">Image</a>
                     <a href="#input-component-heading" class="navigation-link">Input</a>
                     <a href="#text-utilities-component-heading" class="navigation-link">Text Utilities</a>
-                    <a href="" class="navigation-link">Lists</a>
-                    <a href="" class="navigation-link">Navigation</a>
+                    <a href="#list-component-heading" class="navigation-link">Lists</a>
+                    <a href="#navigation-component-heading" class="navigation-link">Navigation</a>
                 </nav>
             </div>
         </aside> 
@@ -709,6 +709,89 @@
                 </iframe>
 
             </section>
+
+            <section class="component-section">
+                <h2 class="component-headings" id="list-component-heading">List</h2>
+                <h3>A list is a container that presents rows of data arranged in a single column.</h3>
+
+                <h2 class="component-headings">Spaced Lists</h2>
+                
+                <div class="component-preview center-component-preview">
+                    <ul class="list-spaced">
+                        <p class="list-head">list-items</p>
+                        <li>List item 1</li>
+                        <li>List item 2</li>
+                        <li>List item 3</li>
+                        <li>List item 4</li>
+                    </ul>
+                </div>
+
+                <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%2849%2C106%2C181%2C1%29&t=seti&wt=none&l=htmlmixed&width=408&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=36px&ph=39px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=156%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list-spaced%2522%253E%250A%2509%253Cp%2520class%253D%2522list-head%2522%253Elist-items%253C%252Fp%253E%250A%2509%253Cli%253EList%2520item%25201%253C%252Fli%253E%250A%2509%253Cli%253EList%2520item%25202%253C%252Fli%253E%250A%2509%253Cli%253EList%2520item%25203%253C%252Fli%253E%250A%2509%253Cli%253EList%2520item%25204%253C%252Fli%253E%250A%253C%252Ful%253E"
+  style="width: 50pvw; height: 40vh; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+            </section>
+
+            <section class="component-section">
+
+                <h2 class="component-headings">Stacked List Lists</h2>
+                
+                <div class="component-preview center-component-preview">
+                    <ul class="list-stacked">
+                        <p class="list-head">Stacked list items</p>
+                        <li>Stacked List item 1</li>
+                        <li>Stacked List item 2</li>
+                        <li>Stacked List item 3</li>
+                        <li>Stacked List item 4</li>
+                    </ul>
+                </div>
+
+                <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%2849%2C106%2C181%2C1%29&t=seti&wt=none&l=htmlmixed&width=408&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=36px&ph=39px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=156%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list-stacked%2522%253E%250A%2509%253Cp%2520class%253D%2522list-head%2522%253EStacked%2520list%2520items%253C%252Fp%253E%250A%2509%253Cli%253EStacked%2520List%2520item%25201%253C%252Fli%253E%250A%2509%253Cli%253EStacked%2520List%2520item%25202%253C%252Fli%253E%250A%2509%253Cli%253EStacked%2520List%2520item%25203%253C%252Fli%253E%250A%2509%253Cli%253EStacked%2520List%2520item%25204%253C%252Fli%253E%250A%253C%252Ful%253E"
+  style="width: 50vw; height: 40vh; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+            </section>
+
+            <section class="component-section">
+                <h2 class="component-headings" id="navigation-component-heading">Navigation</h2>
+                <h3>
+                    A navbar is used to display brand name, brand logo, search bar, nav links, icons, etc.</h3>
+                <h2 class="component-headings">Desktop Navigation</h2>
+
+                <div class="component-preview">
+                    <nav class="nav-bar">
+                        <a href="" class="brand-tag">BrandName</a>
+
+                        <div class="nav-input input input-basic">
+                            <input type="text" placeholder="Search" />
+                        </div>
+
+                        <div class="nav-links">
+                            <a href="" class="button ">Login</a>
+                            <a class="icon-container">
+                                <img class="icon" src="./assets/heart-solid.svg" alt="home icon">
+                                <span class="icon-badge">0</span>
+                            </a>
+                    
+                              <a class="icon-container">
+                                <img class="icon" src="assets/cart-shopping-solid.svg" alt="home icon">
+                                <span class="icon-badge">0</span>
+                            </a>
+                        </div>
+
+                    </nav>
+                </div>
+
+                <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%2849%2C106%2C181%2C1%29&t=seti&wt=none&l=htmlmixed&width=408&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=36px&ph=39px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=156%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522nav-bar%2522%253E%250A%2509%253Ca%2520href%253D%2522%2522%2520class%253D%2522brand-tag%2522%253EBrandName%253C%252Fa%253E%250A%2509%253Cdiv%2520class%253D%2522nav-input%2520input%2520input-basic%2522%253E%250A%2509%2509%253Cinput%2520type%253D%2522text%2522%2520placeholder%253D%2522Search%2522%2520%252F%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522nav-links%2522%253E%250A%2509%2509%253Ca%2520href%253D%2522%2522%2520class%253D%2522button%2520%2522%253ELogin%253C%252Fa%253E%250A%2509%2509%253Ca%2520class%253D%2522icon-container%2522%253E%250A%2509%2509%2509%253Cimg%2520class%253D%2522icon%2522%2520src%253D%2522.%252Fassets%252Fheart-solid.svg%2522%2520alt%253D%2522home%2520icon%2522%253E%250A%2509%2509%2509%253Cspan%2520class%253D%2522icon-badge%2522%253E0%253C%252Fspan%253E%250A%2509%2509%253C%252Fa%253E%2520%2520%2520%2520%2520%2520%2520%2520%250A%2509%2509%253Ca%2520class%253D%2522icon-container%2522%253E%250A%2509%2509%2509%253Cimg%2520class%253D%2522icon%2522%2520src%253D%2522assets%252Fcart-shopping-solid.svg%2522%2520alt%253D%2522home%2520icon%2522%253E%250A%2509%2509%2509%253Cspan%2520class%253D%2522icon-badge%2522%253E0%253C%252Fspan%253E%250A%2509%2509%253C%252Fa%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fnav%253E"
+  style="width: 70vw; height: 60vh; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+            </section>
+
 
             
 

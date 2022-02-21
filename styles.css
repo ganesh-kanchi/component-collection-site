@@ -767,7 +767,7 @@ iframe{
 }
 
 .input-label-pair input {
-    outline: none;
+    outline: 0;
     color: var(--black);
     border-radius: 10px;
     font-size: 1.25rem;
@@ -848,7 +848,7 @@ iframe{
 }
 
 .small-text{
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .center-component-preview{

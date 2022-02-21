@@ -9,6 +9,7 @@
     --red : red;
     --dark-grey : rgb(87, 87, 87);
     --grey : rgb(108, 140, 177);
+
     --success-bg-color: rgb(47, 255, 141);
     --success-border-color: rgb(28, 116, 68);
     --success-color: rgb(0, 117, 53);
@@ -24,6 +25,17 @@
     --alert-border-color: rgb(1, 63, 143);
     --alert-bg-color: rgb(81, 156, 255);
     --alert-color: rgb(0, 60, 255);
+
+    --heading-1: 48px;
+    --heading-2: 32px;
+    --heading-3: 24px;
+    --heading-4: 16px;
+    --heading-5: 8px;
+    --line-height-1: 64px;
+    --line-height-2: 40px;
+    --line-height-3: 32px;
+    --line-height-4: 24px;
+    --line-height-5: 16px;
 }
 
 #success-alert h2,#danger-alert h2,#warning-alert h2,#info-alert h2{
@@ -538,4 +550,124 @@
 .responsive-image{
     width: 100%;
     height: auto;
+}
+
+.input-container,
+.input-label-pair {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container{
+    background-color: var(--white);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 15px var(--dark-grey);
+}
+
+.input-label {
+    font-weight: 500;
+    font-size: 1.25rem;
+    margin: 0.25rem 0;
+}
+
+.input-label-pair input {
+    outline: 0;
+    color: var(--black);
+    border-radius: 10px;
+    font-size: 1.25rem;
+    padding: 0.75rem 1rem;
+    border: 2px solid;
+}
+
+.input-basic input {
+    border-color: var(--hover-effect);
+}
+
+.input-success input {
+    border-color: var(--success-color);
+}
+
+.input-validation-success {
+    color: var(--success-color);
+}
+
+.input-error input {
+    border-color: var(--danger-bg-color);
+}
+
+.input-validation-error {
+    color: var(--danger-bg-color);
+}
+
+.input-warning input {
+    border-color: var(--warning-border-color);
+}
+
+.input-validation-warning {
+    color: var(--warning-border-color);
+}
+
+.input-slider > * {
+    margin: 0 0.25rem;
+  }
+
+.input-label-pair input[type="range"] {
+  accent-color: var(--hover-effect);
+  padding: 0.25rem 0;
+}
+
+.input-slider {
+  flex-direction: row;
+  align-items: center;
+}
+
+.heading{
+    font-weight: bold;
+    width: 100%;
+}
+
+.heading-1{
+    font-size: var(--heading-1);
+    line-height: var(--line-height-1);
+}
+
+.heading-2{
+    font-size: var(--heading-2);
+    line-height: var(--line-height-2);
+}
+
+.heading-3{
+    font-size: var(--heading-3);
+    line-height: var(--line-height-3);
+}
+
+.heading-4{
+    font-size: var(--heading-4);
+    line-height: var(--line-height-4);
+}
+
+.heading-5{
+    font-size: var(--heading-5);
+    line-height: var(--line-height-5);
+}
+
+.small-text{
+    font-size: 1rem;
+}
+
+.grey-text{
+    color: var(--dark-grey);
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
 }

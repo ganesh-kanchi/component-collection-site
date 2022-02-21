@@ -23,8 +23,8 @@
                     <a href="#button-component-heading" class="navigation-link">Button</a>
                     <a href="#card-component-heading" class="navigation-link">Card</a>
                     <a href="#image-component-heading" class="navigation-link">Image</a>
-                    <a href="" class="navigation-link">Input</a>
-                    <a href="" class="navigation-link">Text Utilities</a>
+                    <a href="#input-component-heading" class="navigation-link">Input</a>
+                    <a href="#text-utilities-component-heading" class="navigation-link">Text Utilities</a>
                     <a href="" class="navigation-link">Lists</a>
                     <a href="" class="navigation-link">Navigation</a>
                 </nav>
@@ -541,6 +541,176 @@
                 </iframe>
 
             </section>
+
+            <section class="component-section">
+                <h2 class="component-headings" id="input-component-heading">Input</h2>
+                <h3>The Input component is a component that is used to get user input in a text field.</h3>
+
+                <h2 class="component-headings">Basic Inputs</h2>
+                <div class="component-preview input-component-preview">
+
+                    <div class="input-container">
+                            <div class="input input-label-pair input-basic">
+                                <label class="input-label" for="name-input">Name</label>
+                                <input type="text" name="name-input" placeholder="Enter your Name here" />
+                            </div>
+                        
+                            <div class="input input-label-pair input-basic">
+                                <label class="input-label" for="email-input">Email</label>
+                                <input type="email" name="email-input" placeholder="Enter your Email here" />
+                            </div>
+                              <div class="input-validation-none"></div>
+                    </div>
+
+                </div>
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2849%2C106%2C181%2C1%29&t=seti&wt=none&l=htmlmixed&width=408&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=36px&ph=39px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=156%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2509%253Cdiv%2520class%253D%2522input%2520input-label-pair%2520input-basic%2522%253E%250A%2509%2509%253Clabel%2520class%253D%2522input-label%2522%2520for%253D%2522name-input%2522%253EName%253C%252Flabel%253E%250A%2509%2509%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522name-input%2522%2520placeholder%253D%2522Enter%2520your%2520Name%2520here%2522%2520%252F%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522input%2520input-label-pair%2520input-basic%2522%253E%250A%2509%2509%253Clabel%2520class%253D%2522input-label%2522%2520for%253D%2522email-input%2522%253EEmail%253C%252Flabel%253E%250A%2509%2509%253Cinput%2520type%253D%2522email%2522%2520name%253D%2522email-input%2522%2520placeholder%253D%2522Enter%2520your%2520Email%2520here%2522%2520%252F%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522input-validation-none%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="width: 70vw; height: 55vh; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+            </section>
+
+            <section class="component-section">
+                <h2 class="component-headings">Input with Validations</h2>
+
+                <div class="component-preview input-component-preview">
+
+                    <div class="input-container">
+                        <div class="input input-label-pair input-success">
+                            <label class="input-label" for="email-input">Email</label>
+                            <input type="email" name="email-input" placeholder="Enter your Email here" />
+                        </div>
+                    
+                        <div class="input input-label-pair input-success">
+                            <label class="input-label" for="password-input">Password</label>
+                            <input type="password" name="password-input" placeholder="Enter your Password here" />
+                        </div>
+                          <div class="input-validation-success">Input Validation Successful</div>
+                    </div>
+
+                    <div class="input-container">
+                        <div class="input input-label-pair input-error">
+                            <label class="input-label" for="name-input">Password</label>
+                            <input type="password" name="name-input" placeholder="Enter your password here" />
+                        </div>
+                    
+                        <div class="input input-label-pair input-error">
+                            <label class="input-label" for="email-input">Confirm Password</label>
+                            <input type="password" name="email-input" placeholder="Confirm your password here" />
+                        </div>
+                        <div class="input-validation-error">Passwords do not match</div>
+                    </div>
+
+                    <div class="input-container">
+                        <div class="input input-label-pair input-warning">
+                            <label class="input-label" for="email-input">Email</label>
+                            <input type="email" name="email-input" placeholder="Enter your Email here" />
+                        </div>
+                    
+                        <div class="input input-label-pair input-warning">
+                            <label class="input-label" for="password-input">Password</label>
+                            <input type="password" name="password-input" placeholder="Enter your Password here" />
+                        </div>
+                        <div class="input-validation-warning">Provided password is weak</div>
+                    </div>
+
+                </div>
+
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2849%2C106%2C181%2C1%29&t=seti&wt=none&l=htmlmixed&width=408&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=36px&ph=39px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=156%25&si=false&es=2x&wm=false&code=%253C%21--%2520Input%2520Success%2520--%253E%250A%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2509%253Cdiv%2520class%253D%2522input%2520input-label-pair%2520input-success%2522%253E%250A%2509%2509%253Clabel%2520class%253D%2522input-label%2522%2520for%253D%2522email-input%2522%253EEmail%253C%252Flabel%253E%250A%2509%2509%253Cinput%2520type%253D%2522email%2522%2520name%253D%2522email-input%2522%2520placeholder%253D%2522Enter%2520your%2520Email%2520here%2522%2520%252F%253E%250A%2509%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2509%253Cdiv%2520class%253D%2522input%2520input-label-pair%2520input-success%2522%253E%250A%2509%2509%253Clabel%2520class%253D%2522input-label%2522%2520for%253D%2522password-input%2522%253EPassword%253C%252Flabel%253E%250A%2509%2509%253Cinput%2520type%253D%2522password%2522%2520name%253D%2522password-input%2522%2520placeholder%253D%2522Enter%2520your%2520Password%2520here%2522%2520%252F%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522input-validation-success%2522%253EInput%2520Validation%2520Successful%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%21--%2520Input%2520Error%2520--%253E%250A%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2509%253Cdiv%2520class%253D%2522input%2520input-label-pair%2520input-error%2522%253E%250A%2509%2509%253Clabel%2520class%253D%2522input-label%2522%2520for%253D%2522name-input%2522%253EPassword%253C%252Flabel%253E%250A%2509%2509%253Cinput%2520type%253D%2522password%2522%2520name%253D%2522name-input%2522%2520placeholder%253D%2522Enter%2520your%2520password%2520here%2522%2520%252F%253E%250A%2509%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2509%253Cdiv%2520class%253D%2522input%2520input-label-pair%2520input-error%2522%253E%250A%2509%2509%253Clabel%2520class%253D%2522input-label%2522%2520for%253D%2522email-input%2522%253EConfirm%2520Password%253C%252Flabel%253E%250A%2509%2509%253Cinput%2520type%253D%2522password%2522%2520name%253D%2522email-input%2522%2520placeholder%253D%2522Confirm%2520your%2520password%2520here%2522%2520%252F%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522input-validation-error%2522%253EPasswords%2520do%2520not%2520match%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%21--%2520Input%2520Warning%2520--%253E%250A%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2509%253Cdiv%2520class%253D%2522input%2520input-label-pair%2520input-warning%2522%253E%250A%2509%2509%253Clabel%2520class%253D%2522input-label%2522%2520for%253D%2522email-input%2522%253EEmail%253C%252Flabel%253E%250A%2509%2509%253Cinput%2520type%253D%2522email%2522%2520name%253D%2522email-input%2522%2520placeholder%253D%2522Enter%2520your%2520Email%2520here%2522%2520%252F%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522input%2520input-label-pair%2520input-warning%2522%253E%250A%2509%2509%253Clabel%2520class%253D%2522input-label%2522%2520for%253D%2522password-input%2522%253EPassword%253C%252Flabel%253E%250A%2509%2509%253Cinput%2520type%253D%2522password%2522%2520name%253D%2522password-input%2522%2520placeholder%253D%2522Enter%2520your%2520Password%2520here%2522%2520%252F%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522input-validation-warning%2522%253EProvided%2520password%2520is%2520weak%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="width: 70vw; height: 60vh; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+            </section>
+
+            <section class="component-section">
+                <h2 class="component-headings">Sliders</h2>
+
+                <div class="component-preview input-component-preview">
+                    <div class="input-label-pair input-slider">
+                        <div>500</div>
+                        <input type="range" min="500" max="5000">
+                        <div>5000</div>
+                    </div>
+                </div>
+
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2849%2C106%2C181%2C1%29&t=seti&wt=none&l=htmlmixed&width=408&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=36px&ph=39px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=156%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-label-pair%2520input-slider%2522%253E%250A%2509%253Cspan%253E500%253C%252Fspan%253E%250A%2509%253Cinput%2520type%253D%2522range%2522%2520min%253D%2522500%2522%2520max%253D%25225000%2522%253E%250A%2509%253Cspan%253E5000%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                style="width: 50vw; height: 35vh; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </section>
+
+            <section class="component-section">
+                <h2 class="component-headings" id="text-utilities-component-heading">Text Utilities</h2>
+
+                <h2 class="component-headings">Headings</h2>
+                
+                <div class="component-preview">
+                    <div class="heading heading-1">Heading 1</div>
+                    <div class="heading heading-2">Heading 2</div>
+                    <div class="heading heading-3">Heading 3</div>
+                    <div class="heading heading-4">Heading 4</div>
+                    <div class="heading heading-5">Heading 5</div>
+                </div>
+
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2849%2C106%2C181%2C1%29&t=seti&wt=none&l=htmlmixed&width=408&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=36px&ph=39px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=156%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522heading%2520heading-1%2522%253EHeading%25201%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522heading%2520heading-2%2522%253EHeading%25202%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522heading%2520heading-3%2522%253EHeading%25203%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522heading%2520heading-4%2522%253EHeading%25204%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522heading%2520heading-5%2522%253EHeading%25205%253C%252Fdiv%253E"
+                style="width: 50vw; height: 35vh; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </section>
+
+            <section class="component-section">
+                <h2 class="component-headings">Small Text</h2>
+                
+                <div class="component-preview center-component-preview">
+                    <div class="small-text">Small Text</div>
+                </div>
+
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2849%2C106%2C181%2C1%29&t=seti&wt=none&l=htmlmixed&width=408&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=36px&ph=39px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=156%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522small-text%2522%253ESmall%2520Text%253C%252Fdiv%253E"
+                style="width: 50vw; height: 23vh; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+            </section>
+
+            <section class="component-section">
+                <h2 class="component-headings">Grey Text</h2>
+                
+                <div class="component-preview center-component-preview">
+                    <div class="grey-text">Grey Text</div>
+                </div>
+
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2849%2C106%2C181%2C1%29&t=seti&wt=none&l=htmlmixed&width=408&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=36px&ph=39px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=156%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grey-text%2522%253EGrey%2520Text%253C%252Fdiv%253E%250A"
+                style="width: 50vw; height: 25vh; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+            </section>
+
+            <section class="component-section">
+                <h2 class="component-headings">Aligned Text</h2>
+                
+                <div class="component-preview column-component-preview">
+                    <div class="text-left">Left aligned Text</div>
+                    <div class="text-center">Center aligned Text</div>
+                    <div class="text-right">Right aligned Text</div>
+                </div>
+
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2849%2C106%2C181%2C1%29&t=seti&wt=none&l=htmlmixed&width=408&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=36px&ph=39px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=156%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grey-text%2522%253EGrey%2520Text%253C%252Fdiv%253E%250A"
+                style="width: 50vw; height: 25vh; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+            </section>
+
+            
 
         </main>
     </div>    

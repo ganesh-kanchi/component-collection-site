@@ -750,3 +750,23 @@
     align-items: center;
     margin-left: auto;
 }
+
+.modal{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    border-radius: 1rem;
+}
+
+/* .modal-main{
+    margin: 1rem;
+}
+
+.modal-interaction{
+    margin: 1rem;
+} */

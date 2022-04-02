@@ -794,3 +794,28 @@
     font-weight: bolder;
     flex-grow: 1;
 }
+
+.grid {
+    display: grid;
+    gap: 1rem;
+    margin: 0;
+    width: 100%;
+}
+
+.grid-two-column {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid .grid-data{
+    background-color: var(--white);
+    padding: 1rem;
+    opacity: 0.75;
+}
+
+.grid-three-column {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-four-column {
+    grid-template-columns: repeat(4, 1fr);
+}

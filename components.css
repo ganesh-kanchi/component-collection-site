@@ -772,3 +772,26 @@
 .rating{
     height: 1.5rem;
 }
+
+.toast{
+    display: flex;
+    background-color: var(--white);
+    padding: 0.5rem 1rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    border-radius: 1rem;
+    opacity: 0.75;
+    gap: 1rem;
+}
+
+.toast-close-btn{
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.toast-message{
+    font-weight: bolder;
+    flex-grow: 1;
+}

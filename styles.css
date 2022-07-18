@@ -232,6 +232,10 @@ iframe{
     gap: 2rem;
 }
 
+.resp-img-component-preview {
+    max-height: fit-content;
+}
+
 .input-component-preview{
     justify-content: center;
     gap: 2rem;

@@ -1,0 +1,2 @@
+-Added Modal, Ratings, Toast and Grid components
+-Made the page responsive

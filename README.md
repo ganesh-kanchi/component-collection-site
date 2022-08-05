@@ -65,3 +65,10 @@ To Get these styled components, you have to insert this link inside the head tag
 2. Stacked (Notification Page)
 - Navigation
 1. Desktop (Simple)
+- Modal
+- Ratings
+- Toast
+- Grids
+1. 2 column Grid
+2. 3 column Grid
+3. 4 column Grid
